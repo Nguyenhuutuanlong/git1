@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function timKiem(arr,a){
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === a){
+                count++;
+            }
+        }
+        if (count === 0){
+            return -1;
+        }
+        else {
+            return count;
+        }
+    }
+    let x = ['a','a','c','a']
+    console.log(timKiem(x,'d'))
+
+</script>
+</body>
+</html>
